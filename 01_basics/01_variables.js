@@ -13,4 +13,4 @@ console.log(accountId)
 accountEmail = "hussrghh@gmail.com"
 accountPassword = "4545"
 accountCity = "banglore"
-console.table([accountId, accountEmail, accountPassword, accountCity, accounState])
+console.table([accountId, accountEmail, accountPassword, accountCity, accounState]) //way to print all at a time.
