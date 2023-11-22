@@ -46,3 +46,26 @@ console.log(typeof temp)
 // js is dynamically typed language
 
 
+
+
+// stack(primitive)
+// heap (non-primitive)
+
+let myYoutubename = "himanshiagrawal331@gmail.com"
+let anotherName = myYoutubename
+anotherName  = "himanshi"
+console.log(myYoutubename)
+console.log(anotherName)
+
+
+let userOne = {
+    email: "himanshiagrawal8393@gmail.com",
+    age: 21,
+
+}
+
+let userTwo = userOne;
+userTwo.email = "himanshiagrawal331@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
