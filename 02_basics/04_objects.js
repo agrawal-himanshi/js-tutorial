@@ -30,11 +30,36 @@ const obj2 = {3:"c",4:"d"}
 const obj3 = {...obj1,...obj2}
 // console.log(obj3)
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('loggedIn'))
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+// console.log(tinderUser.hasOwnProperty('loggedIn'))
+
+const course = {
+    CourseName: "js in hindi",
+    Fees: "999",
+    courseInstructor: "hitesh chaudhary"
+}
+
+// course.courseInstructor
+
+const {courseInstructor:instructor} = course
+// console.log(courseInstructor)
+console.log(instructor)
+
+// {
+//     "name" : "himanshi agrawal",
+//     "fees" : "free",
+//     "coursename" : "js in hindi"
+// }
+
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
 
